@@ -8,4 +8,9 @@ public class CalculatorTest {
  public void givenNumberShouldReturnTheSumOfTheNumAndResult() {
   assertEquals("5.0", String.valueOf(calculator.add(2, 3)));
  }
+
+ @Test
+ public void givenNumberShouldReturnSubtractOfResultAndNum() {
+  assertEquals("-1.0", String.valueOf(calculator.subtract(2, 3)));
+ }
 }
