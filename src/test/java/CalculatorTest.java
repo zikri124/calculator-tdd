@@ -13,4 +13,9 @@ public class CalculatorTest {
  public void givenNumberShouldReturnSubtractOfResultAndNum() {
   assertEquals("-1.0", String.valueOf(calculator.subtract(2, 3)));
  }
+
+ @Test
+ public void givenResetStatement() {
+  assertEquals("0.0", String.valueOf(calculator.reset()));
+ }
 }
