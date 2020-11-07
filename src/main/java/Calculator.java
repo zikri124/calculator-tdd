@@ -10,4 +10,9 @@ public class Calculator {
   calc = num1 - num2;
   return calc;
  }
+
+ public double reset() {
+  calc = 0.0;
+  return calc;
+ }
 }
