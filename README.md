@@ -8,19 +8,19 @@ A calculator app using TDD based on Java
 - [Gradle](https://gradle.org/install)
 
 ## Build
-Run this sccript in your terminal to build the app
+Run this script in your terminal to build the app
 ```bash
 gradlew build
 ```
 
 ## Test
-Run this sccript in your terminal to run the test
+Run this script in your terminal to run the test
 ```bash
 gradlew test
 ```
 
 ## Run
-Run this sccript in your terminal to run the app
+Run this script in your terminal to run the app
 ```bash
 gradlew run
 ```
